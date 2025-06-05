@@ -18,6 +18,14 @@ $ reboot
 
 ![image-20250602135034155](.assets/ssh/image-20250602135034155.png)
 
+# 分配动态 IP
+
+从 DHCP 服务器获取 IP 地址
+
+```
+udhcpc -i eth0
+```
+
 # SSH 登录
 
 ![image-20250602135113812](.assets/ssh/image-20250602135113812.png)
