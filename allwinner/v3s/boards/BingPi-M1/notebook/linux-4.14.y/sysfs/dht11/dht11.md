@@ -56,7 +56,9 @@ $ cat /sys/bus/iio/devices/iio:device0/in_temp_input
 cat: read error: Connection timed out
 ```
 
-若 Timer frequency  = 1000 Hz，还是报 Only n signal edges detected，可能原因是系统中断响应处理速度不够。（因此该内核模块测试失败）
+若 Timer frequency  = 1000 Hz，还是报 Only n signal edges detected，可能原因是系统中断响应处理速度不够。
+
+（因此**该内核模块测试失败**）
 
 ![image-20250612002359713](.assets/dht11/image-20250612002359713.png)
 
